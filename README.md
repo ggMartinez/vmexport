@@ -9,7 +9,8 @@ It uses a few virsh commands to get the configs and the HDD file, and then, via 
 
 
 Requirments
-...........
+-----------
+
 
 OpenSSH
 KVM
@@ -17,7 +18,8 @@ KVM
 The script is kinda simple, it doesn't need any external packages to work properly. It uses normal commands that are always aviable on a normal KVM installation.
 
 
+
 SSH Keys
-...........
+---------
 
 Since the whole process of migrating a VM is done with SSH, if you want to avoid the ssh authentication every time you want to migrate a VM, you need to generate SSH keys and then copy it to the destination server.
